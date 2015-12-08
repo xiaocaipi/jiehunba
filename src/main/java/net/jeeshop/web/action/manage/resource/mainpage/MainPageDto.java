@@ -10,6 +10,8 @@ public class MainPageDto {
 	private List<IndexImg> indexImgList ;
 	
 	private List<Catalog> catalogList;
+	
+	private String resultStatus;
 
 	public List<IndexImg> getIndexImgList() {
 		return indexImgList;
@@ -26,6 +28,15 @@ public class MainPageDto {
 	public void setCatalogList(List<Catalog> catalogList) {
 		this.catalogList = catalogList;
 	}
+
+	public String getResultStatus() {
+		return resultStatus;
+	}
+
+	public void setResultStatus(String resultStatus) {
+		this.resultStatus = resultStatus;
+	}
+	
 	
 	
 
